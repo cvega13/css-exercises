@@ -15,11 +15,42 @@ body {
   justify-content: center;
 }
 
+.text_body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chunk1 {
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+  margin-bottom: 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chunk2 {
+  margin: 16px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  font-weight: 900;
+  font-size: large;
+}
+
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: row;
 }
 
 .icon {
@@ -33,6 +64,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 16px;
+  margin-right: 0px;
+  flex-shrink: 0;
 }
 
 .close-button {
